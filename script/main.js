@@ -25,3 +25,7 @@ function addTaskToDOM(task,id=Date.now()){
     `;
     taskList.appendChild(li);
 }
+
+function deleteTask(button,id){
+    button.parentElement.remove();
+}
